@@ -6,8 +6,8 @@ MY_LAT = 19.207237
 MY_LONG = 72.834824
 
 #API KEY of Twilio
-account_sid = "ACe1639a65547fb6dbd5508f3b138ca73d"
-auth_token = "d480b8b430e49fbc2f12c56b123ffaa5"
+account_sid = "Your Twilio API SID"
+auth_token = "Your auth token"
 
 #Parameters and API key for OpenWeatherMap
 weather_parameters = {
@@ -38,7 +38,7 @@ if will_rain:
     message = client.messages \
         .create(
         body="It's going to rain today, Bring Umbrella",
-        from_='+18126128368',
-        to='+91 84509 04594'
+        from_='+18126128368', #This is Twilio's phone number
+        to='Your phone number'
     )
     print(message.status)
