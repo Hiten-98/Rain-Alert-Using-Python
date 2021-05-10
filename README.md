@@ -8,8 +8,8 @@ In this project I have developed a Rain Alert System for the weather where I sta
 
 Just login and you will get your API keys
 
-Step 1: Retrieving waether data from OpenWeatherMap using Longitude and Latitude of your location
-Step 2: Filtering data you want. For eg: Location, time, Weather etc..
-Step 3: Sending SMS using Twilio API to registered mobile number
+1. Retrieving waether data from OpenWeatherMap using Longitude and Latitude of your location
+2. Filtering data you want. For eg: Location, time, Weather etc..
+3. Sending SMS using Twilio API to registered mobile number
 
 And that's all!!  You have created your own weather alert system
